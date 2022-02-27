@@ -51,7 +51,11 @@ $c
 > 
 > ##matrices also can have names
 > m <- matrix(1:4, nrow=2, ncol=2)
-> dimnames(m) <- list(c("a","b"), c("c", "d") 
-+ ##dimnames() -> exclusively for matrix
-+ ##names rows and col using list 1st-> rows 2nd-> cols
-+ 
+> dimnames(m) <- list(c("a","b"), c("c", "d") )
+> ##dimnames() -> exclusively for matrix
+> ##names rows and col using list 1st-> rows 2nd-> cols
+> m
+     [,1] [,2]
+[1,]    1    3
+[2,]    2    4
+
